@@ -164,3 +164,8 @@ You can modify the vap_config.yaml manually to override defaults or change perfo
 
 Source Code:
 Refer to the inline comments in VAP.py for further insights into each module and function.
+
+Final Notes:
+Versioning: This manual applies to VAP version 5.4b. Future updates might introduce new features or modifications, please note that I will attempt to keep this manual as up-to-date as possible though, I am only a one-man-army, so please do not expect it to be soon.
+
+Support & Contributions: Contributions, bug reports, and/or feature requests are welcome. Please open an issue or submit a pull request on GitHub.
