@@ -843,7 +843,7 @@ def settings_menu(controller: VAPController):
             time.sleep(1)
         elif choice == "3":
             print("\n(1) CPU\n(2) GPU\n(3) CPU+GPU")
-            m_str = input("Choose compute mode (WARNING: GPU IS TEMPORARILY UNAVALIBLE): ").strip()
+            m_str = input("Choose compute mode: ").strip()
             if m_str.isdigit():
                 if not controller.set_compute_mode(int(m_str)):
                     print("Invalid code or GPU not available.")
